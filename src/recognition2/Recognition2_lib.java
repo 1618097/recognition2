@@ -46,7 +46,7 @@ public class Recognition2_lib {
 				  .threshold((float) 0.6)
 				  .owners(Arrays.asList("IBM"))
 				  .build();
-		ClassifiedImages result = service.classify(classifyOptions).execute();
+		result = service.classify(classifyOptions).execute();
 		
 		ObjectMapper mapper = new ObjectMapper();
 		JsonNode node = null;
