@@ -39,6 +39,7 @@ public class Recognition2_lib {
 		}
 	}
 	
+	
 	public JsonNode recongnition2() {
 		ClassifyOptions classifyOptions = new ClassifyOptions.Builder()
 				  .imagesFile(imagesStream)
